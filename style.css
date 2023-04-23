@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.films {
+  display: flex;
+  justify-content: space-between;
+  /* border: 5px solid blue; */
+  width: 960px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.film {
+  width: 300px;
+  /* height: 360px;
+  border: 1px solid black; */
+  padding: 32px 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+}
+
+.film img {
+  width: 100%;
+  height: 240px;
+  max-height: 240px;
+}
+
+.film h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.film p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.film a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+/* 
+asterisk * = selektor ogólny
+.nazwaKlasy - selektor klasy
+.film a - selektor potomka
+
+*/
